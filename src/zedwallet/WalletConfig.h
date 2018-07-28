@@ -10,23 +10,23 @@
 namespace WalletConfig
 {
     /* The prefix your coins address starts with */
-    const std::string addressPrefix = "TRTL";
+    const std::string addressPrefix = "ZEUS";
 
     /* Your coins 'Ticker', e.g. Monero = XMR, Bitcoin = BTC */
-    const std::string ticker = "TRTL";
+    const std::string ticker = "ZEUS";
 
     /* The filename to output the CSV to in save_csv */
-    const std::string csvFilename = "transactions.csv";
+    const std::string csvFilename = "bolttransactions.csv";
 
     /* The filename to read+write the address book to - consider starting with
        a leading '.' to make it hidden under mac+linux */
     const std::string addressBookFilename = ".addressBook.json";
 
     /* The name of your deamon */
-    const std::string daemonName = "TurtleCoind";
+    const std::string daemonName = "ZEUScoind";
 
     /* The name to call this wallet */
-    const std::string walletName = "zedwallet";
+    const std::string walletName = "ZEUSwallet";
 
     /* The name of walletd, the programmatic rpc interface to a wallet */
     const std::string walletdName = "service";
@@ -35,7 +35,7 @@ namespace WalletConfig
     const std::string coinName = std::string(CryptoNote::CRYPTONOTE_NAME);
 
     /* Where can your users contact you for support? E.g. discord */
-    const std::string contactLink = "http://chat.turtlecoin.lol";
+    const std::string contactLink = "https://discord.gg/dAScxfu";
 
 
     /* The number of decimals your coin has */
